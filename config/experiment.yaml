@@ -12,7 +12,7 @@ fuzzers:
 - gramatron
 - gramatron_fix
 - nautilus_deep
-git_hash: 5024138950c052868f8eb5ef42e29a0399d2e891
+git_hash: 56bb44874ec3bc849e3befdb1c147dd0a62e0fe7
 local_experiment: true
 max_total_time: 86400
 measurers_cpus: null
