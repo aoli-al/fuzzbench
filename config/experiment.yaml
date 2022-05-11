@@ -3,7 +3,7 @@ benchmarks:
 concurrent_builds: null
 description: null
 docker_registry: gcr.io/fuzzbench
-experiment: php-cmp4
+experiment: php-cmp5
 experiment_filestore: /tmp/experiment-data
 fuzzers:
 - nautilus_large
@@ -12,7 +12,7 @@ fuzzers:
 - gramatron
 - gramatron_fix
 - nautilus_deep
-git_hash: e075f854591d8ee21e198cba3b16a516a08f0e89
+git_hash: 5024138950c052868f8eb5ef42e29a0399d2e891
 local_experiment: true
 max_total_time: 86400
 measurers_cpus: null
