@@ -74,6 +74,6 @@ def fuzz(input_corpus, output_corpus, target_binary):
     grammar = os.path.join(os.environ['OUT'], 'grammar.json')
     out = os.path.join(os.environ['OUT'], 'out')
     os.mkdir(out)
-    command += (['-r', output_corpus, '-o', out, '-g', grammar, '-d', "700"])
+    command += (['-r', output_corpus, '-o', out, '-g', grammar, '-d', "3000"])
     print(command)
     subprocess.check_call(command, cwd=os.environ['OUT'])
